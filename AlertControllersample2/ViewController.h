@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)sheetshow:(id)sender;
+- (IBAction)sheetshow2:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @end
 
